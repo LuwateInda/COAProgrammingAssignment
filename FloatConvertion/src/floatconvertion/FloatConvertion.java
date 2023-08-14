@@ -16,7 +16,7 @@ public class FloatConvertion {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Decimal Number\t" + "Binary Conversion\t\t" + "Remarks");
+        System.out.println("Decimal Number\t" + "Binary Conversion\t" + "Remarks");
         
         for (int i = 0; i<50; i++){
             double random = 0 + Math.random() * (100 - 0);
@@ -73,7 +73,7 @@ public class FloatConvertion {
         double z = decimal;
         String fractionBinary = "";
         
-        for(int counter2 = 0; counter2<4; counter2++){
+        for(int counter2 = 0; counter2<5; counter2++){
             z = z*2;
             if (z == 1){
                 fractionBinary = fractionBinary + "1";
